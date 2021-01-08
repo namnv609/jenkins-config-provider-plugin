@@ -60,8 +60,9 @@ THE SOFTWARE.
 	      var editor = CodeMirror.fromTextArea(document.getElementById("config.content"), {
 	        lineNumbers: true,
 	        matchBrackets: true,
-	        mode: "${contentType.mime}"
+	        mode: "${contentType.mime}",
+	        tabSize: 2,
 	      });
 	    </script>
-    </j:if>	
+    </j:if>
 </j:jelly>
